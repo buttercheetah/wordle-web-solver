@@ -1,0 +1,22 @@
+<html>
+   <body>   
+        <p>{{letters}}</p>
+        <p>{{icll}}</p>
+        <p>{{nicll}}</p>
+        <p>Total possible solutions: {{ps}}</p>    
+        <p>{{answer}}</p>
+        <p>Suggested: {{sg}}</p>
+        <p>Alternative: {{ag}}</p>
+        <p>Current Guesses:</p>
+        <p>{{guesses}}</p>
+        <form action = "/guess" method = "post">
+            <p>Enter guess:</p>
+            <p><input type = "text" name = "nm" /></p>
+            <p><input type="checkbox" name = "1"><input type="checkbox" name = "2"><input type="checkbox" name = "3"><input type="checkbox" name = "4"><input type="checkbox" name = "5"></p>     
+            <p><input type = "submit" value = "submit" /></p>
+        </form>
+        <form action = "/guess" method = "post">
+            <p><input type = "submit" value = "clear" name = "cl" /></p>     
+        </form>
+   </body>
+</html>
