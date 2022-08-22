@@ -1,0 +1,5 @@
+f = open("Words.txt", "r")
+x = str(f.readline())
+x = x.split(",")
+print(x)
+print(type(x))
